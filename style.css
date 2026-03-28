@@ -78,3 +78,13 @@ footer {
   text-align: center;
   padding: 20px;
 }
+#sobre-mi {
+  background: #020617;
+}
+
+#sobre-mi .card {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.6;
+}
