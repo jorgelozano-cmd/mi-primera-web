@@ -1,45 +1,80 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Jorge Lozano | Web Developer</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <nav class="navbar">
-    <h2>Jorge.dev</h2>
-    <ul>
-      <li><a href="#proyectos">Proyectos</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
 
-  <header class="hero">
-    <h1>Hola, soy Jorge 👨‍💻</h1>
-    <p>Desarrollador Web en formación</p>
-    <a href="#proyectos" class="btn">Ver proyectos</a>
-  </header>
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(15, 23, 42, 0.9);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
 
-  <section id="proyectos">
-    <h2>Proyectos</h2>
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
 
-    <div class="card">
-      <h3>Mi primera web</h3>
-      <p>HTML, CSS y JavaScript</p>
-      <a href="https://jorgelozano-cmd.github.io/mi-primera-web/" target="_blank">Ver proyecto</a>
-    </div>
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
 
-  </section>
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  text-align: center;
+}
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Email: tuemail@gmail.com</p>
-  </section>
+.hero h1 {
+  font-size: 3rem;
+}
 
-  <footer>
-    <p>© 2026 Jorge Lozano</p>
-  </footer>
+.hero p {
+  margin: 10px 0;
+}
 
-</body>
-</html>
+/* BOTÓN */
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #22c55e;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* SECCIONES */
+section {
+  padding: 80px 30px;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
