@@ -1,3 +1,6 @@
 [submodule "generador"]
 	path = generador
 	url = https://github.com/jorgelozano-cmd/generador-de-password.git
+[submodule "generador-de-password"]
+	path = generador-de-password
+	url = https://github.com/jorgelozano-cmd/generador-de-password
