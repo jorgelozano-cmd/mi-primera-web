@@ -88,3 +88,28 @@ footer {
   text-align: center;
   line-height: 1.6;
 }
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    position: relative; /* importante para contener botones */
+}
+
+.card a.btn {
+    display: inline-block;
+    margin-top: 10px; /* separa el botón del texto */
+    background: #22c55e;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative; /* asegura que no flote sobre otros elementos */
+}
+
+.card a.btn:hover {
+    transform: scale(1.05);
+    background: #16a34a;
+}
